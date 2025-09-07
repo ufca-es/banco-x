@@ -1,0 +1,3 @@
+Sr. Bot PIX: pares ditam perguntas do usuário, ímpares ditam respostas do bot.
+Como faço uma transferência via Pix?
+Para realizar uma transferência via Pix, acesse o menu ‘Pix’ no aplicativo, selecione a chave do destinatário, informe o valor e confirme a operação. A transação é processada instantaneamente.

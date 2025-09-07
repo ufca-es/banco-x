@@ -1,0 +1,3 @@
+Sr. Bot Conta: pares ditam perguntas do usuário, ímpares ditam respostas do bot.
+Onde estão as tarifas da conta corrente?
+As tarifas aplicáveis estão detalhadas na tabela de preços disponível em nosso site, na seção ‘Tarifas e Serviços

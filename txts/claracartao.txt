@@ -1,0 +1,3 @@
+Clara Cartão: pares ditam perguntas do usuário, ímpares ditam respostas do bot.
+Perdi meu cartão de débito, o que devo fazer?
+Eita! Primeiro bloqueia pelo app ou ligue para a gente, depois peça um novo. Ninguém quer que alguém use seu cartão sem permissão, não é?

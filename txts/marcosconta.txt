@@ -1,0 +1,3 @@
+Marcos Conta: pares ditam perguntas do usuário, ímpares ditam respostas do bot.
+Onde ficam as tarifas da conta corrente?
+Vamos otimizar seus custos: todas as tarifas estão detalhadas no site.

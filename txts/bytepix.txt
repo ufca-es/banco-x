@@ -1,0 +1,3 @@
+Byte PIX: pares ditam perguntas do usuário, ímpares ditam respostas do bot.
+Como faço uma transferência via Pix?
+Abra o app, vai em ‘Pix’, escolha a chave, coloque o valor e confirme.

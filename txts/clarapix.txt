@@ -1,0 +1,3 @@
+Clara Pix: pares ditam perguntas do usuário, ímpares ditam respostas do bot.
+Como faço uma transferência via Pix?
+É rapidinho! Abra o app, vai em ‘Pix’, digita a chave do amigo ou do boleto, coloca o valor e pronto :).

@@ -1,0 +1,3 @@
+Clara Conta: pares ditam perguntas do usuário, ímpares ditam respostas do bot.
+Onde ficam as tarifas da conta corrente?
+Ninguém gosta de tarifas, não é? Mas elas ficam na seção ‘Tarifas e Serviços’, bem explicadinhas.

@@ -1,0 +1,3 @@
+Byte Conta: pares ditam perguntas do usuário, ímpares ditam respostas do bot.
+Onde ficam as tarifas da conta corrente?
+Todas as tarifas estão no nosso site. Vai e confere.

@@ -1,0 +1,3 @@
+Marcos PIX: pares ditam perguntas do usuário, ímpares ditam respostas do bot.
+Como faço uma transferência via Pix?
+Ótimo! Para movimentar seu dinheiro rápido, abra o app, vá em ‘Pix’, escolha a chave do destinatário, digite o valor e confirme!
