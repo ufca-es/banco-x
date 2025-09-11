@@ -1,0 +1,53 @@
+[pix]
+transferencia | formal | Para realizar uma transferência via Pix, acesse o menu ‘Pix’ no aplicativo, selecione a chave do destinatário, informe o valor e confirme a operação. A transação é processada instantaneamente.
+transferencia | formal | No aplicativo, vá em ‘Pix’, insira a chave, o valor e confirme. O valor cairá na hora.
+transferencia | formal | Para efetuar um Pix, entre no app, selecione ‘Pix’, informe a chave e valor e finalize a operação.
+transferencia | formal | Utilize o app, acesse ‘Pix’, preencha a chave e o valor e confirme a transação.
+transferencia | engracada | É rapidinho! Abra o app, vai em ‘Pix’, digita a chave do amigo ou do boleto, coloca o valor e pronto :).
+transferencia | engracada | Vai lá no app, clica em ‘Pix’, digita a chave e o valor e pá! Dinheiro voando.
+transferencia | engracada | Abre o app, acha o ‘Pix’, coloca a chave e valor e tcham! Tá feito.
+transferencia | engracada | Pix é tipo mágica: abre o app, chave, valor e pronto.
+transferencia | rude | Abra o app, vai em ‘Pix’, escolha a chave, coloque o valor e confirme.
+transferencia | rude | Vai no app, Pix, chave, valor. Pronto.
+transferencia | rude | Abre o app, coloca a chave no Pix, digita o valor e envia.
+transferencia | rude | App, Pix, chave, valor, confirma. Simples.
+transferencia | empreendedor | Ótimo! Para movimentar seu dinheiro rápido, abra o app, vá em ‘Pix’, escolha a chave do destinatário, digite o valor e confirme!
+transferencia | empreendedor | No app, selecione ‘Pix’, digite a chave e valor, e tenha liquidez imediata.
+transferencia | empreendedor | Use o Pix para otimizar sua gestão financeira: chave, valor e pronto.
+transferencia | empreendedor | Em poucos cliques no app, com o Pix, transfira seu capital instantaneamente.
+
+[cartao]
+perda | formal | Em caso de perda, bloqueie imediatamente seu cartão pelo aplicativo ou pelo telefone 0800 123 4567. Em seguida, solicite a emissão de um novo cartão.
+perda | formal | Caso tenha perdido o cartão, acesse o app ou ligue 0800 para bloqueio imediato.
+perda | formal | Se perder seu cartão, bloqueie pelo aplicativo ou telefone e peça um novo.
+perda | formal | Perda do cartão? Bloqueie pelo app ou 0800 e solicite substituição.
+perda | engracada | Eita! Primeiro bloqueia pelo app ou ligue para a gente, depois peça um novo. Ninguém quer que alguém use seu cartão sem permissão, não é?
+perda | engracada | Ops! Perdeu o cartão? Corre no app, bloqueia e pede outro.
+perda | engracada | Cartão sumiu? Bloqueia rápido no app e já pede um novo.
+perda | engracada | Ih, perdeu o cartão? Melhor bloquear no app antes que ele vá passear sem você.
+perda | rude | Bloqueie no app ou liga no 0800. Peça outro cartão.
+perda | rude | Perdeu? Bloqueia logo no app e pede outro.
+perda | rude | App ou 0800, bloqueia e resolve.
+perda | rude | Cartão perdido? Bloqueia e solicita outro, simples.
+perda | empreendedor | Bloqueie imediatamente pelo app ou ligue para nós. Depois solicite um novo cartão para continuar tocando seus pagamentos sem atrasos.
+perda | empreendedor | Para evitar prejuízos, bloqueie pelo app ou telefone e já peça a reposição.
+perda | empreendedor | Mantenha o fluxo: bloqueie pelo app e solicite substituição do cartão.
+perda | empreendedor | Garanta a segurança e a continuidade: bloqueie e substitua seu cartão.
+
+[conta]
+tarifas | formal | As tarifas aplicáveis estão detalhadas na tabela de preços disponível em nosso site, na seção ‘Tarifas e Serviços’.
+tarifas | formal | Consulte a tabela de tarifas no site, na área ‘Tarifas e Serviços’.
+tarifas | formal | Todas as tarifas estão descritas no site oficial, seção ‘Tarifas e Serviços’.
+tarifas | formal | Verifique as tarifas no site, área ‘Serviços e Tarifas’.
+tarifas | engracada | Ninguém gosta de tarifas, não é? Mas elas ficam na seção ‘Tarifas e Serviços’, bem explicadinhas.
+tarifas | engracada | Tarifas? Estão todas no site, e explicadas de um jeito fácil.
+tarifas | engracada | As tarifas estão no site, mas olha, eu sei que ninguém curte elas.
+tarifas | engracada | Confere no site a lista de tarifas, prometo que é rapidinho.
+tarifas | rude | Todas as tarifas estão no nosso site. Vai e confere.
+tarifas | rude | Quer saber tarifas? Site. Pronto.
+tarifas | rude | Tá no site. Não tem segredo.
+tarifas | rude | Olha no site e pronto.
+tarifas | empreendedor | Vamos otimizar seus custos: todas as tarifas estão detalhadas no site.
+tarifas | empreendedor | Confira as tarifas no site para planejar melhor seu fluxo financeiro.
+tarifas | empreendedor | Consulte as tarifas e otimize seu orçamento.
+tarifas | empreendedor | Tenha controle: verifique as tarifas no site e ajuste sua estratégia.
