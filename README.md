@@ -12,7 +12,7 @@ ações práticas para cada serviço. Possui a disponibilidade de escolha do bot
 
 # Como Executar
 
-1- Dar play no terminal 
+1- Dar play no terminal <br>
 2: Selecionar Esclha do Bot (com as emoções) <br>
 3: Digitar opções de dúvidas a patir das disponíveis no bot (Transferência, Perda e Tarifas) <br>
 4: Para acessar o histórico digitar <br>
