@@ -9,7 +9,7 @@ def main():
     print("--- Bem-vindo ao ChatBot Banco X ---")
     print("Serviços: Pix, Cartão, Conta, Empréstimo")
 
-    servicos = Servicos(os.path.join(os.path.dirname(__file__), 'respostas.txt'))
+    servicos = Servicos(os.path.join(os.path.dirname(__file__), 'respostasAleatorias.txt'))
     personalidade_inicial = escolher_personalidade()
     bot = ChatBot(personalidade_inicial, servicos)
 
@@ -50,3 +50,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
