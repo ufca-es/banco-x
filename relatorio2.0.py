@@ -1,3 +1,5 @@
+pip install -r requirements.txt
+
 import os
 import random
 import csv
