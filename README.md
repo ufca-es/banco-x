@@ -17,5 +17,5 @@ ações práticas para cada serviço. Possui a disponibilidade de escolha do bot
 3: Digitar opções de dúvidas a patir das disponíveis no bot (Transferência, Perda e Tarifas) <br>
 4: Para acessar o histórico digitar <br>
 
-# Para instalar (Bibliotecas) 
+# Requisições
 Pandas, matplotlib e tabulete
