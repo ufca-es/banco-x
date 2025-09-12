@@ -7,6 +7,8 @@ from datetime import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
 from tabulate import tabulate
+from pathlib import Path
+
 
 
 # Instala dependências
@@ -21,17 +23,17 @@ def instalar_dependencias():
 
 
 class Servicos:
-    def __init__(self, arquivo="respostas.txt"):
+    def __init__(self, arquivo="respostasAleatorias.txt"):
         
         # Deixa eu ver se isso resolve o problema de não encontrar os arquivos
-        arquivo = Path(_file_).resolve().parent.parent / "dados" / "respostasAleatorias.txt"
-        self.dados = self.carregar_respostas_txt(arquivo)
+        arquivo = Path(__file__).resolve().parent / "dados" / "respostasAleatorias.txt"
+        self.dados = self.carregar_respostasAleatorias_txt(arquivo)
 
-    def carregar_respostas_txt(self):
+    def carregar_respostasAleatorias_txt(self, arquivo):
         respostas = {}
         categoria = None
 
-        with open(self.arquivo, "r", encoding="utf-8") as f:
+        with open(arquivo, "r", encoding="utf-8") as f:
             for linha in f:
                 linha = linha.strip()
                 if not linha:
