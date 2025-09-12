@@ -1,9 +1,3 @@
-os
-random
-csv
-datetime
 pandas
-matplotlib.pyplot
-collections
-subprocess
+matplotlib
 tabulate
