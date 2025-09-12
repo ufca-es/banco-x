@@ -21,10 +21,11 @@ def instalar_dependencias():
 
 
 class Servicos:
-    file_path = os.path.join(os.path.dirname(__file__), "respostasAleatorias.txt")  
-    def __init__(self, arquivo=file_path):
-        self.arquivo = arquivo
-        self.dados = self.carregar_respostas_txt()
+    def __init__(self, arquivo="respostas.txt"):
+        
+        # Deixa eu ver se isso resolve o problema de não encontrar os arquivos
+        arquivo = Path(_file_).resolve().parent.parent / "dados" / "respostasAleatorias.txt"
+        self.dados = self.carregar_respostas_txt(arquivo)
 
     def carregar_respostas_txt(self):
         respostas = {}
