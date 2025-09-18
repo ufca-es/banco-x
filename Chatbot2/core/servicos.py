@@ -1,5 +1,5 @@
 import os
-
+# Sem mudanças
 class Servicos:
     file_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'respostasAleatorias.txt')  
     def __init__(self, arquivo=file_path):
