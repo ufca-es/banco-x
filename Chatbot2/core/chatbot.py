@@ -1,14 +1,19 @@
+import os
+import csv
+import random
+from datetime import datetime
 from personalidade import Personalidade
 from historico import Historico
 
+# O histórico agora é um objeto, ao invés de uma lista.
 class ChatBot:
     def __init__(self, personalidade, servicos):
         self.personalidade = personalidade
         self.servicos = servicos
-        self.historico = []
+        self.historico = Historico()
         script_dir = os.path.dirname(os.path.abspath(__file__))
         self.log_file = os.path.join(script_dir, "log_interacoes.csv")
-
+# Agora, o código irá iterar sobre self.historico.mensagens.
     def responder(self, pergunta):
         pergunta = pergunta.lower()
         encontrou = False
@@ -19,7 +24,7 @@ class ChatBot:
                     if respostas:
                         resposta = random.choice(respostas)
                         self.registrar_interacao(pergunta, chave)
-                        self.historico.append((pergunta, resposta))
+                        self.historico.adicionar(pergunta, resposta)
                         return resposta
                     encontrou = True
         if not encontrou:
@@ -40,8 +45,12 @@ class ChatBot:
 
     def mudar_personalidade(self, nova_personalidade):
         self.personalidade = nova_personalidade
-
+# Agora, os prints estão dentro do loop 
     def exibir_historico(self):
-        for i, (entrada, resposta) in enumerate(self.historico, 1):
+        if not self.historico.mensagens:
+            print("Não há histórico de mensagens.")
+            return
+
+        for i, (entrada, resposta) in enumerate(self.historico.mensagens, 1):
             print(f"{i}. Você: {entrada}")
             print(f"   Bot ({self.personalidade}): {resposta}")
