@@ -48,11 +48,11 @@ def main():
             bot.mudar_personalidade(nova)
             continue
         elif pergunta == "historico":
-            bot.historico.exibir()
+            bot.exibir_historico()
             continue
 
         resposta = bot.responder(pergunta)
-        print(f"[{bot.personalidade.estilo.capitalize()}] {resposta}")
+        print(f"[{bot.personalidade.capitalize()}] {resposta}")
         if resposta == "Desculpe, não entendi sua pergunta.":
             Sugestoes().adicionar_sugestao(pergunta)
 
