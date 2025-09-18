@@ -1,0 +1,17 @@
+[pix]
+transferencia | formal | Para realizar uma transferência via Pix, acesse o menu ‘Pix’ no aplicativo, selecione a chave do destinatário, informe o valor e confirme a operação. A transação é processada instantaneamente. | Para fazer um PIX, apenas acesse o seu menu equivalente, escolha a quem vai enviar o dinheiro e confirme a transação no próximo menu.
+transferencia | engracada | É rapidinho! Abra o app, vai em ‘Pix’, digita a chave do amigo ou do boleto, coloca o valor e pronto :).
+transferencia | rude | Abra o app, vai em ‘Pix’, escolha a chave, coloque o valor e confirme. | Vá à opção de PIX, ponha a chave e o valor desejado, depois confirme.
+transferencia | empreendedor | Ótimo! Para movimentar seu dinheiro rápido, abra o app, vá em ‘Pix’, escolha a chave do destinatário, digite o valor e confirme!
+
+[cartao]
+perda | formal | Em caso de perda, bloqueie imediatamente seu cartão pelo aplicativo ou pelo telefone 0800 123 4567. Em seguida, solicite a emissão de um novo cartão.
+perda | engracada | Eita! Primeiro bloqueia pelo app ou ligue para a gente, depois peça um novo. Ninguém quer que alguém use seu cartão sem permissão, não é?
+perda | rude | Bloqueie no app ou liga no 0800. Peça outro cartão.
+perda | empreendedor | Bloqueie imediatamente pelo app ou ligue para nós. Depois solicite um novo cartão para continuar tocando seus pagamentos sem atrasos.
+
+[conta]
+tarifas | formal | As tarifas aplicáveis estão detalhadas na tabela de preços disponível em nosso site, na seção ‘Tarifas e Serviços’.
+tarifas | engracada | Ninguém gosta de tarifas, não é? Mas elas ficam na seção ‘Tarifas e Serviços’, bem explicadinhas.
+tarifas | rude | Todas as tarifas estão no nosso site. Vai e confere.
+tarifas | empreendedor | Vamos otimizar seus custos: todas as tarifas estão detalhadas no site.

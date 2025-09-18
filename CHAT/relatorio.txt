@@ -1,0 +1,7 @@
+Relatório de Interações do ChatBot
+
+Uso de cada persona:
+SrBot 0
+Clara 0
+Byte 1
+Marcos 0
