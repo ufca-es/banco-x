@@ -95,7 +95,8 @@ Matplotlib: Para visualização de dados no relatório.
 | Sarah Mendes  | Desenvolvedor  |
 
 | Orientador  |
-Jayr Alencar Pereira - Professor de Fundamentos da Programação
+| ------------- | ------------- |
+| Jayr Alencar Pereira  | Professor de Fundamentos da Programação - UFCA 2025  |
 
 ### data da última atualização do projeto
 ```
