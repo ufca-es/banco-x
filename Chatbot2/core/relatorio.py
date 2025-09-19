@@ -4,6 +4,12 @@ import matplotlib.pyplot as plt
 from tabulate import tabulate
 
 class Relatorio:
+        def Resetar_arquivo(self):
+        if os.path.exists(self.arquivo_csv):
+            with open(self.arquivo_csv, mode="w", newline="", encoding="utf-8") as f:
+                writer = csv.writer(f, delimiter=";")
+                writer.writerow(["data_hora", "persona", "pergunta_numero", "pergunta_texto"])
+
     def __init__(self, arquivo_csv=None):
         # Caminho absoluto para garantir que o arquivo seja encontrado
         if arquivo_csv is None:
@@ -63,6 +69,7 @@ class Relatorio:
             df["persona"].value_counts().plot(kind="bar", title="Interações por Persona")
             plt.tight_layout()
             plt.savefig(os.path.join(script_dir, "grafico_persona.png"))
+            Relatorio_txt.integrar_personas(df["persona"].nunique())
             plt.close()
 
             # Gráfico 2: Top 5 perguntas
@@ -71,12 +78,14 @@ class Relatorio:
             )
             plt.tight_layout()
             plt.savefig(os.path.join(script_dir, "grafico_perguntas.png"))
+            Relatorio_txt.integrar_top5perguntas(", ".join(df["pergunta_texto"].value_counts().head(5).index))
             plt.close()
 
             # Gráfico 3: Interações por hora
             df["hora"].value_counts().sort_index().plot(kind="bar", title="Interações por Hora")
             plt.tight_layout()
             plt.savefig(os.path.join(script_dir, "grafico_hora.png"))
+            Relatorio_txt.integrar_Ninterações(len(df))
             plt.close()
 
             print("Gráficos gerados com sucesso.")
@@ -111,3 +120,4 @@ class Relatorio_txt:
         arquivo = os.path.join(os.path.dirname(__file__), 'relatorio.txt')
         with open(arquivo, "a+", encoding="utf-8") as f:
             f.write(f"Uso de cada persona:\nSrBot {self.contador[0]}\nClara {self.contador[1]}\nByte {self.contador[2]}\nMarcos {self.contador[3]}\n")
+
