@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from tabulate import tabulate
 
 class Relatorio:
-        def Resetar_arquivo(self):
+    def Resetar_arquivo(self):
         if os.path.exists(self.arquivo_csv):
             with open(self.arquivo_csv, mode="w", newline="", encoding="utf-8") as f:
                 writer = csv.writer(f, delimiter=";")
@@ -121,5 +121,3 @@ class Relatorio_txt:
         arquivo = os.path.join(os.path.dirname(__file__), 'relatorio.txt')
         with open(arquivo, "a+", encoding="utf-8") as f:
             f.write(f"Uso de cada persona:\nSrBot {self.contador[0]}\nClara {self.contador[1]}\nByte {self.contador[2]}\nMarcos {self.contador[3]}\n")
-
-

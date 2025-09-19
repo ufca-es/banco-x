@@ -18,8 +18,7 @@ def main():
     utils = Utils()
 
     # Carrega serviços e personalidade inicial
-    servicos = Servicos(os.path.join(os.path.dirname(__file__), '..', 'data', 'respostasAleatorias.txt'))  
-    personalidade_inicial = utils.escolher_personalidade()
+    servicos = Servicos(os.path.join(os.path.dirname(__file__), '..', 'data', 'respostasAleatorias.txt'))
 
     bot = ChatBot(personalidade_inicial, servicos)
 
