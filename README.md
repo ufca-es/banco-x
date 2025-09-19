@@ -93,7 +93,7 @@ Matplotlib: Para visualização de dados no relatório.
 | Elilúcio Teixeira | Desenvolvedor  |
 | Samuel Jackson | Desenvolvedor  |
 | Sarah Mendes  | Desenvolvedor  |
-| ------------- | ------------- |
+
 | Orientador  |
 Jayr Alencar Pereira - Professor de Fundamentos da Programação
 
