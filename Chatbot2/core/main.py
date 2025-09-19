@@ -7,7 +7,6 @@ from relatorio import Relatorio_txt
 from servicos import Servicos
 from chatbot import ChatBot
 from sugestoes import Sugestoes
-from relatorio import Relatorio
 from utils import Utils
 
 
@@ -31,6 +30,8 @@ def main():
     except FileExistsError:
         pass
 
+        Relatorio_txt().gerar()
+
     # Arquivo sugestões
     with open(os.path.join(os.path.dirname(__file__), 'sugestoes.txt'), "a+", encoding="utf-8") as f:
         f.write("\nSugestões de Perguntas da sessão passada:\n")
@@ -41,6 +42,7 @@ def main():
         if pergunta == "sair":
             print("Encerrando atendimento. Até logo!")
             bot.historico.criar_historico()
+            Relatorio_txt().integrar_contadores()
             Relatorio().gerar()
             break
         elif pergunta == "mudar":
@@ -53,6 +55,7 @@ def main():
 
         resposta = bot.responder(pergunta)
         print(f"[{bot.personalidade.capitalize()}] {resposta}")
+        Relatorio_txt.contadores_personas(bot.personalidade)
         if resposta == "Desculpe, não entendi sua pergunta.":
             Sugestoes().adicionar_sugestao(pergunta)
 
