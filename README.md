@@ -52,7 +52,7 @@ python app.py
 ```
 O servidor será iniciado em modo de depuração (debug), e você poderá acessar a aplicação no seu navegador através da seguinte URL:
 ```
-http://localhost:5000
+http://127.0.0.1:5000
 ```
 # Estrutura do Projeto
 A estrutura de pastas e arquivos do projeto está organizada da seguinte forma:
