@@ -89,15 +89,15 @@ Matplotlib: Para visualização de dados no relatório.
 # Equipe
 | Membros  | Funções |
 | ------------- | ------------- |
-| Ana Aisha  | Desenvolvedor  |
-| Elilúcio Teixeira | Desenvolvedor  |
-| Samuel Jackson | Desenvolvedor  |
-| Sarah Mendes  | Desenvolvedor  |
+| [Ana Aisha](https://github.com/shir0uz)  | Desenvolvedor  |
+| [Elilúcio Teixeira](https://github.com/Lux4477) | Desenvolvedor  |
+| [Samuel Jackson](https://github.com/SJacksonML) | Desenvolvedor  |
+| [Sarah Mendes](https://github.com/sarahmendes-ufca)  | Desenvolvedor  |
 
 # Orientador
 | Membros  | Funções |
 | ------------- | ------------- |
-| Jayr Alencar Pereira  | Professor de Fundamentos da Programação - UFCA 2025  |
+| [Jayr Alencar Pereira](https://github.com/jayralencar)  | Professor de Fundamentos da Programação - UFCA 2025  |
 
 ### data da última atualização do projeto
 ```
