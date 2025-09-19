@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente Financeiro</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="chatbot-container">
+        
+        <div id="chat-screen" class="screen">
+            <div class="chatbot-header">
+                ChatBot
+                <div class="personalidade-display">
+                    <span id="persona-name">Sr. Bot</span>
+                    <button id="change-persona-btn" class="persona-btn">Mudar</button>
+                </div>
+            </div>
+            <div class="chat-messages">
+            </div>
+            <div class="chatbot-footer">
+                <input type="text" id="chat-input" class="chatbot-input" placeholder="Digite sua mensagem...">
+                <button id="send-btn" class="chatbot-send-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="report-screen" class="screen hidden">
+            <div class="chatbot-header">
+                Relatório de Interações
+                <button id="back-to-chat-btn" class="back-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+                    </svg>
+                </button>
+            </div>
+            <div id="report-content" class="report-content">
+                Carregando relatório...
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const chatScreen = document.getElementById('chat-screen');
+            const reportScreen = document.getElementById('report-screen');
+            const chatMessages = document.querySelector('.chat-messages');
+            const chatInput = document.getElementById('chat-input');
+            const sendBtn = document.getElementById('send-btn');
+            const personaNameDisplay = document.getElementById('persona-name');
+            const changePersonaBtn = document.getElementById('change-persona-btn');
+            const backToChatBtn = document.getElementById('back-to-chat-btn');
+            const reportContent = document.getElementById('report-content');
+            let currentPersona = 'formal';
+
+            // Funções
+            function appendMessage(text, sender) {
+                const messageElement = document.createElement('div');
+                messageElement.classList.add('chat-message', sender);
+                messageElement.textContent = text;
+                chatMessages.appendChild(messageElement);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+
+            async function sendMessage() {
+                const message = chatInput.value.trim();
+                if (message === '') return;
+
+                appendMessage(message, 'user');
+                chatInput.value = '';
+
+                // Verifica se a mensagem é um comando especial
+                if (message.toLowerCase() === 'relatorio') {
+                    showReport();
+                    return;
+                }
+                
+                // Envia a mensagem para a rota de chat do Flask
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: message })
+                });
+
+                const data = await response.json();
+                appendMessage(data.response, 'bot');
+            }
+
+            async function changePersona() {
+                const newPersona = prompt('Digite a nova personalidade (formal, engracada, rude, empreendedor):').toLowerCase();
+                
+                const validPersonas = ['formal', 'engracada', 'rude', 'empreendedor'];
+                if (validPersonas.includes(newPersona)) {
+                    const response = await fetch('/change_persona', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ persona: newPersona })
+                    });
+                    const data = await response.json();
+                    appendMessage(data.response, 'bot');
+                    currentPersona = newPersona;
+                    personaNameDisplay.textContent = currentPersona.charAt(0).toUpperCase() + currentPersona.slice(1);
+                } else {
+                    appendMessage('Personalidade inválida. Mantendo a atual.', 'bot');
+                }
+            }
+
+            async function showReport() {
+                // Alterna as telas
+                chatScreen.classList.add('hidden');
+                reportScreen.classList.remove('hidden');
+
+                // Busca o relatório na rota do Flask
+                const response = await fetch('/get_report');
+                const data = await response.json();
+                
+                reportContent.textContent = data.report;
+            }
+
+            function hideReport() {
+                reportScreen.classList.add('hidden');
+                chatScreen.classList.remove('hidden');
+            }
+
+            // Eventos
+            sendBtn.addEventListener('click', sendMessage);
+            chatInput.addEventListener('keyup', (event) => {
+                if (event.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+            changePersonaBtn.addEventListener('click', changePersona);
+            backToChatBtn.addEventListener('click', hideReport);
+
+            // Início da conversa
+            setTimeout(() => {
+                appendMessage('Olá, em que posso ajudar?', 'bot');
+            }, 500);
+        });
+    </script>
+</body>
+</html>
