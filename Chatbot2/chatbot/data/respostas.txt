@@ -1,0 +1,39 @@
+[pix]
+transferencia | formal | Para realizar uma transferência via Pix, acesse o menu ‘Pix’ no aplicativo, selecione a chave do destinatário, informe o valor e confirme a operação. A transação é processada instantaneamente. | Para fazer um PIX, apenas acesse o seu menu equivalente, escolha a quem vai enviar o dinheiro e confirme a transação no próximo menu.
+transferencia | engracada | É rapidinho! Abra o app, vai em ‘Pix’, digita a chave do amigo ou do boleto, coloca o valor e pronto :).
+transferencia | rude | Abra o app, vai em ‘Pix’, escolha a chave, coloque o valor e confirme. | Vá à opção de PIX, ponha a chave e o valor desejado, depois confirme.
+transferencia | empreendedor | Ótimo! Para movimentar seu dinheiro rápido, abra o app, vá em ‘Pix’, escolha a chave do destinatário, digite o valor e confirme!
+
+[cartao]
+perda | formal | Em caso de perda, bloqueie imediatamente seu cartão pelo aplicativo ou pelo telefone 0800 123 4567. Em seguida, solicite a emissão de um novo cartão.
+perda | engracada | Eita! Primeiro bloqueia pelo app ou ligue para a gente, depois peça um novo. Ninguém quer que alguém use seu cartão sem permissão, não é?
+perda | rude | Bloqueie no app ou liga no 0800. Peça outro cartão.
+perda | empreendedor | Bloqueie imediatamente pelo app ou ligue para nós. Depois solicite um novo cartão para continuar tocando seus pagamentos sem atrasos.
+
+[conta]
+tarifas | formal | As tarifas aplicáveis estão detalhadas na tabela de preços disponível em nosso site, na seção ‘Tarifas e Serviços’.
+tarifas | engracada | Ninguém gosta de tarifas, não é? Mas elas ficam na seção ‘Tarifas e Serviços’, bem explicadinhas.
+tarifas | rude | Todas as tarifas estão no nosso site. Vai e confere.
+tarifas | empreendedor | Vamos otimizar seus custos: todas as tarifas estão detalhadas no site.
+
+[limite_cartao]
+aumentar limite cartao | formal | Para solicitar o aumento do limite do seu cartão de crédito, acesse o aplicativo e vá em 'Cartões', depois em 'Ajustar Limite'.
+como aumentar limite cartao | formal | Você pode solicitar o aumento do limite diretamente pelo aplicativo, na seção de cartões.
+posso aumentar meu limite | formal | Sim, a solicitação de aumento de limite pode ser feita no aplicativo, em 'Cartões' > 'Ajustar Limite'.
+quero aumentar o limite do meu cartao | formal | Acesse a opção 'Ajustar Limite' na área de cartões do aplicativo para fazer sua solicitação.
+limite do meu cartao | formal | Para verificar o seu limite atual, acesse a área de 'Cartões' no aplicativo.
+aumentar limite cartao | engracada | Quer um limite maior no cartão? É só ir no app e pedir! A gente aumenta, mas use com sabedoria, hein!
+como aumentar limite cartao | engracada | O app tem um botão mágico pra aumentar seu limite! Vai lá e pede o seu!
+posso aumentar meu limite | engracada | Se você quer mais limite, é só ir no app, na seção de cartões, e pedir!
+quero aumentar o limite do meu cartao | engracada | Bora ter mais limite no cartão? Clica lá no app e pede um aumento!
+limite do meu cartao | engracada | Seu limite pode ser maior! É só ir no app e solicitar.
+aumentar limite cartao | rude | Se precisa de mais limite, solicite no aplicativo. Não é tão difícil de achar.
+como aumentar limite cartao | rude | O processo para aumentar seu limite está no aplicativo. Faça você mesmo.
+posso aumentar meu limite | rude | Aumente seu limite no aplicativo. Não pergunte o que é óbvio.
+quero aumentar o limite do meu cartao | rude | Vá à seção de cartões no aplicativo e solicite. É simples.
+limite do meu cartao | rude | O seu limite está no aplicativo. Verifique lá.
+aumentar limite cartao | empreendedor | Aumentar o limite do seu cartão é uma estratégia para expandir seu poder de compra. Solicite o aumento de forma prática pelo aplicativo.
+como aumentar limite cartao | empreendedor | Uma linha de crédito maior é vital para o crescimento do seu negócio. Solicite o aumento no app.
+posso aumentar meu limite | empreendedor | A expansão do seu limite de crédito é uma ferramenta para alavancar seus projetos. Solicite no aplicativo.
+quero aumentar o limite do meu cartao | empreendedor | O aumento do limite de seu cartão é um investimento no seu potencial de negócios.
+limite do meu cartao | empreendedor | O limite de crédito é um ativo financeiro. Gerencie-o estrategicamente pelo aplicativo.
