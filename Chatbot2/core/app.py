@@ -15,7 +15,7 @@ data_dir = os.path.join(script_dir, 'data')
 
 # Inicializa as classes do chatbot e suas dependências
 # O caminho para o arquivo de respostas é `data/respostasAleatorias.txt`
-servicos = Servicos(os.path.join(os.path.dir(__file__), '..', 'data', 'respostasAleatorias.txt'))
+servicos = Servicos(os.path.join(os.path.dirname(__file__), '..', 'data', 'respostasAleatorias.txt'))
 utils = Utils()
 # A personalidade inicial é 'formal' para o servidor web
 bot = ChatBot('formal', servicos)
@@ -66,4 +66,5 @@ def relatorio():
 # Executa o aplicativo
 if __name__ == '__main__':
     app.run(debug=True)
+
 
