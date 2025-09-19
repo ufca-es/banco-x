@@ -51,35 +51,34 @@ Certifique-se de que você está na pasta raiz do projeto (banco-x) e execute o 
 python app.py
 ```
 O servidor será iniciado em modo de depuração (debug), e você poderá acessar a aplicação no seu navegador através da seguinte URL:
-
+```
 http://localhost:5000
-
+```
 # Estrutura do Projeto
 A estrutura de pastas e arquivos do projeto está organizada da seguinte forma:
 
 ```
 banco-x/
-├── app.py                   # Servidor web principal da aplicação.
+├── app.py                   # Servidor web principal da aplicação (ponto de entrada).
 ├── core/
-│   ├── chatbot.py           # Lógica principal do chatbot.
-│   ├── historico.py         # Gerenciamento do histórico de conversas.
-│   ├── main.py              # Lógica de linha de comando (CLI).
-│   ├── personalidade.py     # Lida com as personalidades do chatbot.
-│   ├── relatorio.py         # Geração dos relatórios de uso.
-│   ├── servicos.py          # Lógica para carregar as respostas do chatbot.
-│   ├── sugestoes.py         # Gerenciamento de sugestões de perguntas.
-│   └── utils.py             # Funções utilitárias.
+│   ├── chatbot.py           # Lógica principal do chatbot.
+│   ├── historico.py         # Gerenciamento do histórico de conversas.
+│   ├── main.py              # Lógica de linha de comando (CLI).
+│   ├── personalidade.py     # Lida com as personalidades do chatbot.
+│   ├── relatorio.py         # Geração dos relatórios de uso.
+│   ├── servicos.py          # Lógica para carregar as respostas do chatbot.
+│   ├── sugestoes.py         # Gerenciamento de sugestões de perguntas não respondidas.
+│   └── utils.py             # Funções utilitárias.
 ├── data/
-│   └── respostasAleatorias.txt # Arquivo de dados com perguntas e respostas.
+│   └── respostasAleatorias.txt # Arquivo de dados com perguntas e respostas.
 ├── templates/
-│   └── index.html           # Arquivo HTML principal da interface.
-├── .gitignore               # Ignora arquivos e pastas que não devem ser versionados.
-└── README.md                # Este arquivo.
+│   └── index.html           # Arquivo HTML principal da interface web.
+└── README.md                # Documentação principal do projeto.
 ```
 
 # Tecnologias Utilizadas
 ```
-**Python 3.x**: Linguagem de programação principal.
+Python 3.x: Linguagem de programação principal.
 Flask: Microframework web para Python.
 HTML5: Estrutura da página web.
 CSS3: Estilização da interface.
@@ -87,5 +86,18 @@ JavaScript: Lógica de interação do frontend.
 Pandas: Para manipulação de dados na geração do relatório.
 Matplotlib: Para visualização de dados no relatório.
 ```
-# Requisições
-Pandas, matplotlib e tabulete
+# Equipe
+| Membros  | Funções |
+| ------------- | ------------- |
+| Ana Aisha  | Desenvolvedor  |
+| Elilúcio Teixeira | Desenvolvedor  |
+| Samuel Jackson | Desenvolvedor  |
+| Sarah Mendes  | Desenvolvedor  |
+| ------------- | ------------- |
+| Orientador  |
+Jayr Alencar Pereira - Professor de Fundamentos da Programação
+
+### data da última atualização do projeto
+```
+19/09/2025
+```
