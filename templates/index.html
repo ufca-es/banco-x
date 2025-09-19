@@ -7,26 +7,26 @@
     <style>
         /* Estilos gerais do corpo da página */
         body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: 'Segoe UI', Arial, sans-serif;
-            color: #fff;
-            background-color: #000;
+          margin: 0;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-family: 'Segoe UI', Arial, sans-serif;
+          color: #fff;
+          background-color: #000;
         }
-        
+
         /* Container do Chatbot */
         .chatbot-container {
-            width: 380px;
-            height: 600px;
-            background-color: #1a1a1a;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
+          width: 380px;
+          height: 600px;
+          background-color: #1a1a1a;
+          border-radius: 20px;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
         }
 
         /* Telas do aplicativo */
@@ -36,184 +36,161 @@
             display: flex;
             flex-direction: column;
         }
-        
+
         .hidden {
             display: none;
         }
 
         /* Cabeçalho do Chatbot */
         .chatbot-header {
-            background-color: #f97316;
-            padding: 15px;
-            text-align: center;
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: #fff;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+          background-color: #f97316;
+          padding: 15px;
+          text-align: center;
+          font-size: 1.2rem;
+          font-weight: bold;
+          color: #fff;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Área de mensagens */
+        .chat-messages {
+          flex-grow: 1;
+          padding: 15px;
+          overflow-y: auto;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          scroll-behavior: smooth;
+        }
+
+        .chat-messages::-webkit-scrollbar {
+          width: 8px;
+        }
+
+        .chat-messages::-webkit-scrollbar-track {
+          background: #262626;
+        }
+
+        .chat-messages::-webkit-scrollbar-thumb {
+          background-color: #444;
+          border-radius: 4px;
+        }
+
+        /* Balões de mensagem */
+        .message-bubble {
+          max-width: 80%;
+          padding: 10px 15px;
+          border-radius: 20px;
+          line-height: 1.4;
+          word-wrap: break-word;
+        }
+
+        .bot-message {
+          background-color: #262626;
+          align-self: flex-start;
+          border-bottom-left-radius: 5px;
+        }
+
+        .user-message {
+          background-color: #ea580c;
+          align-self: flex-end;
+          border-bottom-right-radius: 5px;
+        }
+
+        /* Rodapé com campo de entrada */
+        .chatbot-footer {
+          padding: 15px;
+          background-color: #1a1a1a;
+          border-top: 1px solid #333;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+
+        /* Campo de texto */
+        .chatbot-input {
+          flex-grow: 1;
+          padding: 10px 15px;
+          border: 1px solid #333;
+          border-radius: 25px;
+          background-color: #262626;
+          color: #fff;
+          font-size: 1rem;
+          outline: none;
+          transition: border-color 0.3s;
+        }
+
+        .chatbot-input:focus {
+          border-color: #f97316;
+        }
+
+        /* Botão de envio */
+        .chatbot-send-btn {
+          background-color: #ea580c;
+          color: #fff;
+          border: none;
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: background-color 0.3s;
+        }
+
+        .chatbot-send-btn:hover {
+          background-color: #f97316;
         }
 
         .personalidade-display {
             display: flex;
             align-items: center;
             gap: 10px;
-            font-size: 0.9rem;
+            font-size: 1rem;
+            font-weight: normal;
         }
 
         .persona-btn {
-            background-color: #ea580c;
-            color: #fff;
+            background-color: #fff;
+            color: #f97316;
             border: none;
-            border-radius: 20px;
             padding: 5px 10px;
+            border-radius: 15px;
             cursor: pointer;
-            transition: background-color 0.3s;
+            font-size: 0.8rem;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
         }
 
         .persona-btn:hover {
             background-color: #f97316;
-        }
-        
-        /* Área de mensagens */
-        .chat-messages {
-            flex-grow: 1;
-            padding: 20px;
-            overflow-y: auto;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            background-color: #1a1a1a;
-        }
-
-        /* Scrollbar */
-        .chat-messages::-webkit-scrollbar {
-            width: 8px;
-        }
-
-        .chat-messages::-webkit-scrollbar-thumb {
-            background-color: #444;
-            border-radius: 10px;
-        }
-
-        .chat-messages::-webkit-scrollbar-track {
-            background-color: #262626;
-        }
-
-        /* Mensagem individual */
-        .message {
-            max-width: 80%;
-            padding: 10px 15px;
-            border-radius: 18px;
-            word-wrap: break-word;
-        }
-
-        .message.user {
-            background-color: #3b3b3b;
-            align-self: flex-end;
-            border-bottom-right-radius: 5px;
-        }
-
-        .message.bot {
-            background-color: #f97316;
-            align-self: flex-start;
-            border-bottom-left-radius: 5px;
-        }
-
-        /* Rodapé com input e botão */
-        .chatbot-footer {
-            padding: 15px;
-            background-color: #1a1a1a;
-            border-top: 1px solid #333;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        /* Campo de texto */
-        .chatbot-input {
-            flex-grow: 1;
-            padding: 10px 15px;
-            border: 1px solid #333;
-            border-radius: 25px;
-            background-color: #262626;
             color: #fff;
-            font-size: 1rem;
-            outline: none;
-            transition: border-color 0.3s;
         }
 
-        .chatbot-input:focus {
-            border-color: #f97316;
-        }
-
-        /* Botão de envio */
-        .chatbot-send-btn {
-            background-color: #ea580c;
-            color: #fff;
-            border: none;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: background-color 0.3s;
-        }
-
-        .chatbot-send-btn:hover {
-            background-color: #f97316;
-        }
-
-        /* Ícone do botão */
-        .chatbot-send-btn svg {
-            width: 20px;
-            height: 20px;
-        }
-
-        /* Estilos da tela de relatório */
         .report-content {
-            flex-grow: 1;
             padding: 20px;
             overflow-y: auto;
-            white-space: pre-wrap; /* Mantém a formatação do texto */
-            word-wrap: break-word;
-            background-color: #1a1a1a;
-            font-family: 'Courier New', monospace; /* Fonte monoespaçada para o relatório */
-            font-size: 0.9rem;
-        }
-
-        /* Estilo para o botão de relatório */
-        .report-btn {
-            background-color: #444;
-            color: #fff;
-            border: none;
-            border-radius: 20px;
-            padding: 8px 15px;
-            cursor: pointer;
-            margin-top: 10px;
-            transition: background-color 0.3s;
-        }
-
-        .report-btn:hover {
-            background-color: #555;
+            white-space: pre-wrap;
+            line-height: 1.5;
+            color: #ccc;
         }
     </style>
 </head>
 <body>
+
     <div class="chatbot-container">
+        
         <div id="chat-screen" class="screen">
             <div class="chatbot-header">
                 ChatBot
                 <div class="personalidade-display">
                     <span id="persona-name">Sr. Bot</span>
                     <button id="change-persona-btn" class="persona-btn">Mudar</button>
-                    <button id="show-report-btn" class="persona-btn">Relatório</button>
                 </div>
             </div>
-            <div class="chat-messages"></div>
+            <div class="chat-messages">
+                </div>
             <div class="chatbot-footer">
                 <input type="text" id="chat-input" class="chatbot-input" placeholder="Digite sua mensagem...">
                 <button id="send-btn" class="chatbot-send-btn">
@@ -229,7 +206,7 @@
                 Relatório de Interações
                 <button id="back-to-chat-btn" class="persona-btn">Voltar</button>
             </div>
-            <pre id="report-content" class="report-content">Carregando relatório...</pre>
+            <pre id="report-content" class="report-content"></pre>
         </div>
     </div>
 
@@ -243,102 +220,134 @@
             const sendBtn = document.getElementById('send-btn');
             const personaNameDisplay = document.getElementById('persona-name');
             const changePersonaBtn = document.getElementById('change-persona-btn');
-            const showReportBtn = document.getElementById('show-report-btn');
             const backToChatBtn = document.getElementById('back-to-chat-btn');
             const reportContent = document.getElementById('report-content');
-        
+
+            // 2. Estado
             let currentPersona = 'formal';
-        
-            // 2. Funções de UI
-            function appendMessage(text, sender) {
-                const messageDiv = document.createElement('div');
-                messageDiv.classList.add('message', sender);
-                messageDiv.textContent = text;
-                chatMessages.appendChild(messageDiv);
-                chatMessages.scrollTop = chatMessages.scrollHeight; // Scroll para a última mensagem
+            const respostasIniciais = {
+                formal: "Olá! Sou o Sr. Bot. Em que posso ajudá-lo hoje?",
+                engracada: "E aí, beleza? Chega mais, que o papo é reto!",
+                rude: "O que você quer? Seja direto.",
+                empreendedor: "Tempo é dinheiro! Diga-me o que precisa, e serei breve."
+            };
+
+            // 3. Funções Utilitárias
+            function appendMessage(message, sender) {
+                const messageBubble = document.createElement('div');
+                messageBubble.classList.add('message-bubble', `${sender}-message`);
+                messageBubble.textContent = message;
+                chatMessages.appendChild(messageBubble);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
             }
-        
-            function showReport() {
+
+            function showLoading(show) {
+                if (show) {
+                    sendBtn.innerHTML = '...';
+                    sendBtn.disabled = true;
+                } else {
+                    sendBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>`;
+                    sendBtn.disabled = false;
+                }
+            }
+
+            // 4. Lógica de Interação com o Backend
+            async function sendMessage() {
+                const message = chatInput.value.trim();
+                if (!message) return;
+
+                appendMessage(message, 'user');
+                chatInput.value = '';
+                showLoading(true);
+
+                try {
+                    const response = await fetch('http://127.0.0.1:5000/chat', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ message: message.toLowerCase(), persona: currentPersona }),
+                    });
+
+                    const data = await response.json();
+                    showLoading(false);
+                    
+                    if (data.type === "historico") {
+                        showReport(data.response, "Histórico de Conversas");
+                    } else if (data.type === "relatorio") {
+                        appendMessage(data.response, 'bot');
+                    } else {
+                        appendMessage(data.response, 'bot');
+                    }
+
+                } catch (error) {
+                    console.error('Erro:', error);
+                    appendMessage('Desculpe, não consegui me conectar. Tente novamente mais tarde.', 'bot');
+                    showLoading(false);
+                }
+            }
+            
+            function changePersona() {
+                const personas = ['formal', 'engracada', 'rude', 'empreendedor'];
+                let newPersona = prompt(`Escolha uma personalidade:\n1 - Sr. Bot (Formal)\n2 - Clara (Engraçada)\n3 - Byte (Rude)\n4 - Marcos (Empreendedor)`);
+                
+                switch (newPersona) {
+                    case '1':
+                        currentPersona = 'formal';
+                        break;
+                    case '2':
+                        currentPersona = 'engracada';
+                        break;
+                    case '3':
+                        currentPersona = 'rude';
+                        break;
+                    case '4':
+                        currentPersona = 'empreendedor';
+                        break;
+                    default:
+                        appendMessage("Opção inválida. Mantendo a personalidade atual.", 'bot');
+                        return;
+                }
+
+                personaNameDisplay.textContent = currentPersona.charAt(0).toUpperCase() + currentPersona.slice(1);
+                appendMessage(`Minha personalidade agora é ${currentPersona}.`, 'bot');
+            }
+
+            function showReport(content, title) {
+                reportContent.textContent = '';
+                if (Array.isArray(content) && content.length > 0) {
+                    const historicoFormatado = content.map((item, index) => `${index + 1}. Usuário: ${item[0]}\n   Bot: ${item[1]}`).join('\n\n');
+                    reportContent.textContent = historicoFormatado;
+                } else if (typeof content === 'string') {
+                    reportContent.textContent = content;
+                } else {
+                    reportContent.textContent = "Não há dados para exibir.";
+                }
+
                 chatScreen.classList.add('hidden');
                 reportScreen.classList.remove('hidden');
-                fetchReport();
             }
-        
+
             function hideReport() {
                 reportScreen.classList.add('hidden');
                 chatScreen.classList.remove('hidden');
             }
-        
-            // 3. Funções de API
-            async function sendMessage() {
-                const pergunta = chatInput.value.trim();
-                if (pergunta === '') {
-                    return;
-                }
-        
-                appendMessage(pergunta, 'user');
-                chatInput.value = '';
-                
-                try {
-                    const response = await fetch('/chat', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify({ pergunta, persona: currentPersona })
-                    });
-                    const data = await response.json();
-                    appendMessage(data.resposta, 'bot');
-                } catch (error) {
-                    console.error('Erro ao enviar mensagem:', error);
-                    appendMessage('Desculpe, não consegui me conectar ao servidor.', 'bot');
-                }
-            }
-        
-            async function fetchReport() {
-                reportContent.textContent = "Gerando relatório...";
-                try {
-                    const response = await fetch('/relatorio');
-                    const data = await response.json();
-                    if (data.relatorio) {
-                        reportContent.textContent = data.relatorio;
-                    } else if (data.erro) {
-                        reportContent.textContent = "Erro: " + data.erro;
-                    }
-                } catch (error) {
-                    console.error('Erro ao buscar relatório:', error);
-                    reportContent.textContent = 'Erro ao carregar o relatório. Verifique se o servidor está rodando.';
-                }
-            }
-        
-            function changePersona() {
-                let newPersona = prompt(`Escolha uma personalidade:\n- formal\n- engracada\n- rude\n- empreendedor`);
-                if (newPersona) {
-                    newPersona = newPersona.toLowerCase().trim();
-                    if (['formal', 'engracada', 'rude', 'empreendedor'].includes(newPersona)) {
-                        currentPersona = newPersona;
-                        personaNameDisplay.textContent = newPersona.charAt(0).toUpperCase() + newPersona.slice(1);
-                        appendMessage(`Minha personalidade agora é ${newPersona}.`, 'bot');
-                    } else {
-                        appendMessage("Opção inválida. Mantendo a personalidade atual.", 'bot');
-                    }
-                }
-            }
-        
-            // 4. Eventos
+
+            // 5. Eventos
+            
             sendBtn.addEventListener('click', sendMessage);
             chatInput.addEventListener('keyup', (event) => {
                 if (event.key === 'Enter') {
                     sendMessage();
                 }
             });
+
             changePersonaBtn.addEventListener('click', changePersona);
-            showReportBtn.addEventListener('click', showReport);
             backToChatBtn.addEventListener('click', hideReport);
-        
-            // 5. Início da conversa
+
+            // 6. Início da conversa
             setTimeout(() => {
-                appendMessage("Olá! Como posso te ajudar hoje?", 'bot');
+                appendMessage(respostasIniciais[currentPersona], 'bot');
             }, 500);
         });
     </script>
