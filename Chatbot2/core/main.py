@@ -30,8 +30,8 @@ def main():
     except FileExistsError:
         pass
 
-        Relatorio_txt().gerar()
-
+    Relatorio_txt().gerar()
+    Relatorio().Resetar_arquivo()
     # Arquivo sugestões
     with open(os.path.join(os.path.dirname(__file__), 'sugestoes.txt'), "a+", encoding="utf-8") as f:
         f.write("\nSugestões de Perguntas da sessão passada:\n")
@@ -61,3 +61,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
