@@ -34,7 +34,7 @@ Recomendamos usar um ambiente virtual para executar o projeto!
 ```
 python -m venv venv
 ```
-## Ativa o ambiente virtual
+### Ativa o ambiente virtual
 # No Windows:
 venv\Scripts\activate
 ## No macOS e Linux:
