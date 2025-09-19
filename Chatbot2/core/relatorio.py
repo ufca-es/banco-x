@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import csv
 import matplotlib.pyplot as plt
 from tabulate import tabulate
 
@@ -120,4 +121,5 @@ class Relatorio_txt:
         arquivo = os.path.join(os.path.dirname(__file__), 'relatorio.txt')
         with open(arquivo, "a+", encoding="utf-8") as f:
             f.write(f"Uso de cada persona:\nSrBot {self.contador[0]}\nClara {self.contador[1]}\nByte {self.contador[2]}\nMarcos {self.contador[3]}\n")
+
 
