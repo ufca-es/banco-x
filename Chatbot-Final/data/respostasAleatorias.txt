@@ -1,0 +1,240 @@
+[pix]
+transferência | formal | Para realizar uma transferência via Pix, acesse o menu ‘Pix’ no aplicativo, selecione a chave do destinatário, informe o valor e confirme a operação. A transação é processada instantaneamente.
+transferencia | formal | No aplicativo, vá em ‘Pix’, insira a chave, o valor e confirme. O valor cairá na hora.
+transferencia | formal | Para efetuar um Pix, entre no app, selecione ‘Pix’, informe a chave e valor e finalize a operação.
+transferencia | formal | Utilize o app, acesse ‘Pix’, preencha a chave e o valor e confirme a transação.
+transferencia | engracada | É rapidinho! Abra o app, vai em ‘Pix’, digita a chave do amigo ou do boleto, coloca o valor e pronto :D.
+transferencia | engracada | Vai lá no app, clica em ‘Pix’, digita a chave e o valor e pá! Dinheiro voando.
+transferencia | engracada | Abre o app, acha o ‘Pix’, coloca a chave e valor e tcham! Tá feito.
+transferencia | engracada | Pix é tipo mágica: abre o app, chave, valor e pronto.
+transferencia | rude | Abra o app, vai em ‘Pix’, escolha a chave, coloque o valor e confirme.
+transferencia | rude | Vai no app, Pix, chave, valor. Pronto.
+transferencia | rude | Abre o app, coloca a chave no Pix, digita o valor e envia.
+transferencia | rude | App, Pix, chave, valor, confirma. Simples.
+transferencia | empreendedor | Ótimo! Para movimentar seu dinheiro rápido, abra o app, vá em ‘Pix’, escolha a chave do destinatário, digite o valor e confirme!
+transferencia | empreendedor | No app, selecione ‘Pix’, digite a chave e valor, e tenha liquidez imediata.
+transferencia | empreendedor | Use o Pix para otimizar sua gestão financeira: chave, valor e pronto.
+transferencia | empreendedor | Em poucos cliques no app, com o Pix, transfira seu capital instantaneamente.
+
+[cartao]
+perda | formal | Em caso de perda, bloqueie imediatamente seu cartão pelo aplicativo ou pelo telefone 0800 123 4567. Em seguida, solicite a emissão de um novo cartão.
+perda | formal | Caso tenha perdido o cartão, acesse o app ou ligue 0800 para bloqueio imediato.
+perda | formal | Se perder seu cartão, bloqueie pelo aplicativo ou telefone e peça um novo.
+perda | formal | Perda do cartão? Bloqueie pelo app ou 0800 e solicite substituição.
+perda | engracada | Eita! Primeiro bloqueia pelo app ou ligue para a gente, depois peça um novo. Ninguém quer que alguém use seu cartão sem permissão, não é?
+perda | engracada | Ops! Perdeu o cartão? Corre no app, bloqueia e pede outro.
+perda | engracada | Cartão sumiu? Bloqueia rápido no app e já pede um novo.
+perda | engracada | Ih, perdeu o cartão? Melhor bloquear no app antes que ele vá passear sem você.
+perda | rude | Bloqueie no app ou liga no 0800. Peça outro cartão.
+perda | rude | Perdeu? Bloqueia logo no app e pede outro.
+perda | rude | App ou 0800, bloqueia e resolve.
+perda | rude | Cartão perdido? Bloqueia e solicita outro, simples.
+perda | empreendedor | Bloqueie imediatamente pelo app ou ligue para nós. Depois solicite um novo cartão para continuar tocando seus pagamentos sem atrasos.
+perda | empreendedor | Para evitar prejuízos, bloqueie pelo app ou telefone e já peça a reposição.
+perda | empreendedor | Mantenha o fluxo: bloqueie pelo app e solicite substituição do cartão.
+perda | empreendedor | Garanta a segurança e a continuidade: bloqueie e substitua seu cartão.
+
+[conta]
+tarifas | formal | As tarifas aplicáveis estão detalhadas na tabela de preços disponível em nosso site, na seção ‘Tarifas e Serviços’.
+tarifas | formal | Consulte a tabela de tarifas no site, na área ‘Tarifas e Serviços’.
+tarifas | formal | Todas as tarifas estão descritas no site oficial, seção ‘Tarifas e Serviços’.
+tarifas | formal | Verifique as tarifas no site, área ‘Serviços e Tarifas’.
+tarifas | engracada | Ninguém gosta de tarifas, não é? Mas elas ficam na seção ‘Tarifas e Serviços’, bem explicadinhas.
+tarifas | engracada | Tarifas? Estão todas no site, e explicadas de um jeito fácil.
+tarifas | engracada | As tarifas estão no site, mas olha, eu sei que ninguém curte elas.
+tarifas | engracada | Confere no site a lista de tarifas, prometo que é rapidinho.
+tarifas | rude | Todas as tarifas estão no nosso site. Vai e confere.
+tarifas | rude | Quer saber tarifas? Site. Pronto.
+tarifas | rude | Tá no site. Não tem segredo.
+tarifas | rude | Olha no site e pronto.
+tarifas | empreendedor | Vamos otimizar seus custos: todas as tarifas estão detalhadas no site.
+tarifas | empreendedor | Confira as tarifas no site para planejar melhor seu fluxo financeiro.
+tarifas | empreendedor | Consulte as tarifas e otimize seu orçamento.
+tarifas | empreendedor | Tenha controle: verifique as tarifas no site e ajuste sua estratégia.
+
+[saudacao]
+oi | formal | Olá, em que posso ajudar?
+ola | formal | Olá, como posso ser útil hoje?
+oi | engracada | E aí! Qual a boa?
+ola | engracada | Fala, mestre! O que 'cê' quer saber?
+oi | rude | O que você quer?
+ola | rude | Diga logo o que precisa.
+oi | empreendedor | Olá, pronto para crescermos juntos? Diga o que precisa.
+ola | empreendedor | Seja bem-vindo(a)! Como posso ajudá-lo(a) a alavancar seus negócios?
+
+[pix]
+o que e pix | formal | O Pix é um sistema de pagamento instantâneo do Banco Central, que permite transações em segundos.
+o que é pix | formal | Pix é uma solução do Banco Central que possibilita transações financeiras 24/7.
+o que e o pix | formal | É um meio de pagamento eletrônico que permite transferir e receber dinheiro em tempo real.
+o que é o pix | formal | Pix é uma solução tecnológica que otimiza as transferências bancárias.
+pix significado | formal | Pix significa Sistema de Pagamentos Instantâneos.
+pix definicao | formal | O Pix é um serviço de pagamento instantâneo regulamentado pelo Banco Central do Brasil.
+oque é pix | engracada | Pix é tipo mágica: o dinheiro voa de uma conta pra outra, rápido e sem hora!
+o que e pix | engracada | É o super-herói das transferências, voa rapidinho!
+pix o que e | engracada | Sabe aquela transferência que caía só no dia seguinte? O Pix faz na hora!
+o que significa pix | engracada | É a sigla de 'Paga Imediatamente e Xau'! Brincadeira, é o sistema de pagamento instantâneo.
+pix pra que serve | engracada | Pra tudo que você precisa de grana na hora, tipo aquele bolo de pote!
+o que e pix | rude | É um sistema de transferência rápida, se não sabe o que é, procure no Google.
+pix significado | rude | É a forma mais rápida de transferir dinheiro, simples assim.
+pix o que e | rude | É um sistema de pagamentos instantâneos. É óbvio.
+o que e o pix | rude | Se você não sabe o que é Pix, não está prestando atenção no mundo.
+oq é pix | rude | É um sistema de pagamentos instantâneos. Use o bom senso.
+o que e pix | empreendedor | Pix é uma ferramenta de liquidez, ideal para otimizar o fluxo de caixa do seu negócio.
+pix pra que serve | empreendedor | O Pix pode alavancar suas vendas, oferecendo uma opção de pagamento instantânea para seus clientes.
+pix para empresas | empreendedor | O Pix para empresas proporciona agilidade nas transações e redução de custos operacionais.
+pix para meu negocio | empreendedor | O uso do Pix melhora a experiência de compra do cliente e pode aumentar a conversão.
+como usar pix | empreendedor | Para utilizar o Pix, integre-o aos seus sistemas de cobrança e ofereça essa opção aos seus clientes.
+
+[transferencia]
+como fazer pix | formal | Para fazer um Pix, acesse a área Pix no aplicativo, selecione a chave, informe o valor e confirme a transação.
+como faço pix | formal | Acesse a seção de Pix, escolha a chave, insira o valor e confirme a operação.
+como transferir pix | formal | No aplicativo, vá em 'Pix', preencha os dados de chave e valor para transferir.
+como fazer um pix | formal | Para realizar um Pix, acesse o aplicativo, entre na área 'Pix', selecione a chave, insira o valor e confirme.
+como enviar pix | formal | Abra a área Pix no app, digite a chave de destino, insira o valor e complete o envio.
+como transferir com pix | engracada | Pra fazer um Pix, é só ir na área Pix, colocar a chave, o valor e pronto! Dinheiro voando!
+quero fazer um pix | engracada | Bora fazer um Pix? Clica no botão, coloca a chave do amigo e o valor e 'tcham'!
+como se faz pix | engracada | Abre o app, clica no botão do Pix, coloca os dados e já era!
+como transfiro por pix | engracada | É super fácil! Vai lá no app, clica em 'Pix' e manda ver!
+fazer pix como | engracada | É rapidinho! Clica no botão do Pix, coloca a chave e o valor e pronto!
+como fazer pix | rude | Leia as instruções no aplicativo. É bem fácil. Vá em 'Pix', preencha os dados e confirme.
+como faço pix | rude | Acesse a área de Pix, informe a chave e o valor. É um processo direto.
+como transferir com pix | rude | Se você não consegue fazer um Pix, talvez devesse ler o manual. Vá na seção 'Pix' e siga os passos.
+como envio um pix | rude | O processo é intuitivo. Vá para a seção 'Pix' e insira a chave.
+quero transferir pix | rude | Basta acessar o aplicativo e seguir o fluxo do Pix.
+como fazer pix | empreendedor | Para iniciar uma transação Pix, vá à seção 'Pagamentos' no aplicativo e selecione 'Pix'. Insira a chave do destinatário e o valor para otimizar sua transação.
+como transferir com pix | empreendedor | O processo de pagamento Pix é simplificado para maximizar a eficiência. Basta preencher a chave e o valor.
+como envio pix | empreendedor | A gestão de pagamentos é simples. A ferramenta Pix permite enviar dinheiro de forma estratégica.
+quero transferir | empreendedor | Para realizar uma transferência, basta acessar a opção 'Pix' no aplicativo.
+posso fazer pix | empreendedor | O Pix é a forma mais eficaz de transferir dinheiro para seus fornecedores.
+
+[tarifas]
+pix tem taxa | formal | Para pessoas físicas, as transações via Pix são gratuitas. Para pessoas jurídicas, podem haver taxas.
+pix é de graça | formal | O Pix é um serviço gratuito para indivíduos. Para empresas, consulte as tarifas em nosso site.
+quanto custa pix | formal | O Pix não tem custo para pessoas físicas. Para empresas, podem ser cobradas taxas, dependendo do tipo de transação.
+tem taxa pix | formal | As transferências Pix são gratuitas para contas de pessoa física.
+pix paga tarifa | formal | A tarifa do Pix para pessoas físicas é zero. Para CNPJ, pode haver uma taxa.
+tarifa de pix | engracada | Pix de graça é bom, né? Pra pessoa física, não tem tarifa! Já pra empresa, pode ter um custo, mas é mixaria!
+taxa pix | engracada | Pix pra você, meu amigo, é na faixa! Pra empresa, pode ter um custo, mas vale a pena!
+pix cobra | engracada | O Pix não cobra pra gente! Pra empresa, talvez, mas é de boa!
+pix é pago | engracada | O Pix é 0800 pra pessoa física. Que benção, né?
+pix tem custo | engracada | Pra gente, o Pix é grátis. Pra empresa, pode ter uma taxa.
+pix tem taxa | rude | Pessoas físicas não pagam, empresas talvez. Se quer ter certeza, vá ao site e veja a tabela.
+pix paga | rude | A tarifa para pessoa física é zero. Para CNPJ, pode haver tarifa. Veja por conta própria.
+quanto custa pix | rude | Não perca tempo, a tarifa para pessoa física é zero.
+taxa pix | rude | Apenas empresas pagam taxa, e não somos nós que definimos.
+tarifa pix | rude | Vá ao site oficial para saber mais sobre as tarifas.
+pix tem taxa | empreendedor | A tarifa Pix para pessoa física é zero, mas para PJ, ela pode variar. Utilize o Pix para impulsionar suas vendas com taxas competitivas.
+pix cobra | empreendedor | A utilização do Pix para pessoa jurídica tem custos eficientes que proporcionam um retorno significativo em agilidade e liquidez.
+qual o custo do pix | empreendedor | Os custos do Pix são competitivos e permitem um gerenciamento de caixa mais eficiente.
+pix tem tarifa | empreendedor | Nossas tarifas do Pix são pensadas para otimizar o lucro do seu negócio.
+
+[limite]
+limite pix | formal | O limite de transferência Pix é estabelecido pelo Banco Central, mas você pode personalizá-lo pelo aplicativo.
+limites para pix | formal | Para alterar seu limite diário para Pix, acesse as configurações no aplicativo, selecione 'Meus Limites Pix'.
+limites de pix | formal | Você pode gerenciar os limites de transação do Pix na área 'Meus Limites'.
+limite de pix | formal | Os limites para transferências podem ser ajustados pelo aplicativo.
+limite para pix | engracada | O limite é você quem manda! É só ir lá no aplicativo, na parte de 'Pix', e pedir pra aumentar ou diminuir. Fica esperto!
+mudar limite pix | engracada | Quer mandar uma fortuna? Vai no app, 'Meus Limites' e bota pra quebrar! Mas cuidado, hein!
+posso mudar limite pix | engracada | Quer mudar o limite do Pix? É super fácil, vai no app e pede pra mudar.
+como alterar limite pix | engracada | No app tem a opção de mudar o limite, é rapidinho!
+limite pix | rude | Você pode mudar o limite. Vá no aplicativo e mude, é simples.
+quero aumentar limite pix | rude | Aumente ou diminua o limite como quiser. O risco é seu.
+quero mudar limite pix | rude | Vá em 'Meus Limites Pix' e ajuste. É por sua conta e risco.
+aumentar limite pix | empreendedor | A gestão de limites Pix é uma ferramenta de segurança. Acesse 'Meus Limites' para ajustar de acordo com as necessidades operacionais de seu negócio.
+mudar limite pix | empreendedor | Ajustar o limite de transferência é crucial para a segurança de suas transações. O aplicativo permite que você defina os limites ideais para seu volume de negócios.
+limite de transferencia | empreendedor | Defina o seu limite ideal no aplicativo para uma gestão mais segura dos seus ativos.
+
+[cartao]
+pedir cartao | formal | Para solicitar um novo cartão de crédito, acesse o aplicativo e procure pela opção 'Cartões'.
+quero cartao | formal | Você pode pedir seu cartão de crédito diretamente pelo nosso aplicativo, na seção 'Cartões'.
+como pedir cartao | formal | Solicite seu cartão de crédito através da seção 'Cartões' do aplicativo.
+solicitar cartao | formal | A solicitação de cartão de crédito é feita de forma simples e rápida pelo aplicativo.
+pedir cartao | engracada | Quer um cartão? Pede um! É só ir no app na seção 'Cartões'!
+quero um cartao | engracada | Bora de cartão novo? É só dar um pulinho no app e clicar em 'Cartões'!
+como pedir cartao | engracada | É super fácil, vai na seção 'Cartões' no app e pede seu cartão.
+solicitar cartao | engracada | Quer pedir um cartão? É só ir no app na seção 'Cartões'.
+pedir cartao | rude | Seu cartão está no app. Vá até a seção 'Cartões' e solicite.
+como pedir cartao | rude | Para solicitar o cartão, entre no aplicativo e veja as opções. Não é difícil.
+quero cartao | rude | Vá à seção 'Cartões' no aplicativo para solicitar o seu.
+pedir cartao | empreendedor | A otimização de fluxo de caixa passa pelo uso de um cartão de crédito. Você pode solicitá-lo no aplicativo em 'Cartões'.
+como pedir cartao | empreendedor | Nosso cartão é a ferramenta ideal para gerenciar suas despesas. Solicite-o na seção 'Cartões'.
+solicitar cartao | empreendedor | A solicitação de cartão é o primeiro passo para otimizar suas finanças.
+
+[conta]
+abrir conta | formal | Para abrir sua conta digital, baixe nosso aplicativo e siga as instruções para o cadastro.
+quero abrir conta | formal | Você pode abrir sua conta em poucos minutos pelo aplicativo, seguindo as etapas de cadastro.
+como abrir conta | formal | A abertura de conta digital é simples e rápida, feita diretamente pelo aplicativo.
+abrir uma conta | formal | Baixe o app e siga as instruções para abrir a sua conta digital.
+abrir conta | engracada | Quer uma conta? Baixa o app e 'tá' na mão! Rápido e fácil!
+quero abrir conta | engracada | Bora ter uma conta com a gente? É só baixar o app e se jogar!
+como abrir uma conta | engracada | Baixa o app e pede sua conta, é facinho!
+abrir conta | rude | Baixe o aplicativo e siga as instruções para abrir uma conta. O processo é automatizado.
+como abrir conta | rude | O processo de abertura é no aplicativo, você não precisa de ajuda para isso.
+quero abrir conta | rude | Vá até o app para abrir sua conta. Não tem erro.
+abrir conta | empreendedor | Abrir uma conta digital conosco otimiza seu tempo e permite o gerenciamento financeiro de forma eficiente.
+como abrir conta | empreendedor | Nossa conta digital é a base para o crescimento do seu negócio. O processo de abertura é ágil e simplificado.
+quero abrir conta | empreendedor | Sua conta digital é a ferramenta ideal para alavancar seu negócio.
+
+[emprestimo]
+emprestimo | formal | Temos diversas linhas de crédito disponíveis. Para simular e solicitar, acesse a área 'Empréstimos' no seu aplicativo.
+simular emprestimo | formal | A simulação de empréstimo pode ser feita diretamente no seu aplicativo.
+como pedir emprestimo | formal | Para solicitar um empréstimo, acesse a seção de empréstimos, escolha a opção desejada e siga os passos.
+emprestimo pessoal | formal | Nossos empréstimos pessoais têm taxas competitivas e podem ser contratados pelo aplicativo.
+empréstimo | formal | Para mais detalhes sobre as opções de empréstimo, consulte a área de crédito em sua conta.
+emprestimo | engracada | Precisando de uma grana extra? Vai lá no app e pede um 'Empréstimo'! É 'tcha-bum'!
+simular emprestimo | engracada | Quer ver quanto você pode pegar emprestado? Vai na área de 'Empréstimo' do app e simula!
+como pedir emprestimo | engracada | Pedir um empréstimo é super simples! Clica em 'Empréstimos' e faz o seu pedido!
+emprestimo pessoal | engracada | Bora pegar um dinheirinho pra realizar um sonho? É só ir no app e ver as opções de empréstimo!
+empréstimo | engracada | O 'emprestin' tá esperando por você no app! Vai lá e confere!
+emprestimo | rude | Nossas linhas de crédito estão disponíveis no aplicativo. Vá e faça sua simulação.
+simular emprestimo | rude | A simulação está no aplicativo, não aqui.
+como pedir emprestimo | rude | Para pedir, vá à seção 'Empréstimos'. É um processo simples e automatizado.
+emprestimo pessoal | rude | Nossos empréstimos estão no aplicativo. Vá lá.
+empréstimo | rude | Se quer um empréstimo, faça a solicitação no aplicativo.
+emprestimo | empreendedor | Nossas linhas de crédito são um recurso estratégico para capital de giro. Acesse 'Empréstimos' para simular.
+simular emprestimo | empreendedor | A simulação de empréstimo é o primeiro passo para planejar seu investimento. Faça no aplicativo.
+como pedir emprestimo | empreendedor | Para solicitar crédito para o seu negócio, acesse a área de empréstimos e analise as melhores opções para sua estratégia.
+emprestimo pessoal | empreendedor | Empréstimos pessoais podem ser usados para otimizar suas finanças. Contrate no aplicativo.
+empréstimo | empreendedor | A alavancagem financeira é essencial. Utilize a área de empréstimos para acessar nosso portfólio de crédito.
+
+[relatorio]
+gerar relatorio | formal | Para gerar o relatório de interações, por favor, clique no botão 'Relatório' na tela principal.
+quero relatorio | formal | O relatório detalhado de suas interações pode ser acessado na tela do chatbot.
+relatorio de interacoes | formal | Para visualizar o relatório de suas interações, clique no botão específico na interface.
+relatório | formal | O relatório de interações está disponível na tela principal do chatbot.
+relatorio | engracada | Quer ver o que a gente conversou? Clica no botão 'Relatório' e 'tá' tudo lá!
+gerar relatorio | engracada | Quer ver o que a gente bateu papo? Clica no botão 'Relatório' e confere!
+quero relatorio | engracada | É só clicar no botão 'Relatório' que eu te mostro tudo!
+relatorio de interacoes | engracada | O relatório tá na mão! Clica no botão para ver tudo que a gente conversou.
+relatório | engracada | A gente já conversou bastante, clica no relatório pra conferir!
+gerar relatorio | rude | O botão de 'Relatório' está na tela. Não é preciso perguntar como fazer.
+quero relatorio | rude | Clique no botão 'Relatório'. É uma ação simples.
+relatorio de interacoes | rude | O relatório está na interface. Use o bom senso.
+relatório | rude | Clique no botão na tela. Não tem erro.
+relatorio | empreendedor | O relatório de interações é uma ferramenta de análise de dados. Acesse-o no botão 'Relatório' para obter insights.
+gerar relatorio | empreendedor | A geração do relatório é uma forma de auditar a eficiência das interações. Clique no botão na tela.
+quero relatorio | empreendedor | O relatório está disponível para análise. Acesse-o para otimizar suas futuras interações.
+relatorio de interacoes | empreendedor | O histórico das nossas interações é uma fonte de dados valiosa. Você pode acessá-lo clicando no botão 'Relatório'.
+relatório | empreendedor | O relatório de interações está disponível para análise de performance.
+
+[ajuda]
+quero falar com um/o atendente | formal | Para falar com um de nossos atendentes, por favor, ligue para o número 0800 123 4567.
+falar com atendente | formal | Você pode entrar em contato com nossa equipe de atendimento por telefone.
+atendimento | formal | Nosso serviço de atendimento humano está disponível por telefone.
+preciso de ajuda | formal | Para obter assistência de um profissional, entre em contato com a central de atendimento.
+falar com uma pessoa | formal | O atendimento humano pode ser realizado por telefone, ligue para o nosso número de contato.
+quero falar com atendente | engracada | O robô não está te ajudando? Liga lá na central que tem uma pessoa pra você!
+falar com atendente | engracada | Cansou de mim? Liga lá! 0800 123 4567!
+atendimento | engracada | A gente se ama, mas se precisar de uma pessoa, liga pra central!
+preciso de ajuda | engracada | Precisa de ajuda humana? Ligue para o nosso número!
+falar com uma pessoa | engracada | Quer bater um papo com um humano? Liga lá que tem gente!
+quero falar com atendente | rude | Se precisa de um atendente, ligue para 0800 123 4567.
+falar com atendente | rude | Não vou te ajudar mais. Ligue para a central.
+atendimento | rude | Nossa equipe de atendimento está no telefone, não aqui.
+preciso de ajuda | rude | Você precisa de um atendente. Ligue.
+falar com uma pessoa | rude | Se quer falar com uma pessoa de verdade, ligue para o nosso número.
+quero falar com atendente | empreendedor | Para otimizar seu tempo e obter suporte direto, ligue para a nossa central de atendimento no 0800 123 4567.
+falar com atendente | empreendedor | O contato com nossa equipe é essencial para solucionar problemas complexos.
+atendimento | empreendedor | Nossa equipe de atendimento está pronta para auxiliar em questões estratégicas.
+preciso de ajuda | empreendedor | Para obter suporte especializado, utilize nossos canais de atendimento humano.
+falar com uma pessoa | empreendedor | Para ter um suporte personalizado, entre em contato com nossa equipe de atendimento.

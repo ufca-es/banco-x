@@ -1,0 +1,10 @@
+Relatório de Interações do ChatBot
+
+Uso de cada persona:
+SrBot 3
+Clara 0
+Byte 0
+Marcos 0
+Personas utilizadas: 1
+Top 5 perguntas:oi, perd, perda
+Total de interações: 3

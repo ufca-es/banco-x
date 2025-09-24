@@ -1,0 +1,5 @@
+Histórico de Conversas:
+1. Usuário: oi
+   Bot: Olá, em que posso ajudar?
+2. Usuário: perda
+   Bot: Em caso de perda, bloqueie imediatamente seu cartão pelo aplicativo ou pelo telefone 0800 123 4567. Em seguida, solicite a emissão de um novo cartão.

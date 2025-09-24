@@ -1,0 +1,144 @@
+{
+    "saudacao": {
+        "oi": {
+            "formal": [
+                "Olá, em que posso ajudar?",
+                "Bom dia, como posso ser útil?",
+                "Boa tarde, estou à disposição para ajudá-lo(a)."
+            ],
+            "engracada": [
+                "Oi! Tudo certin? Manda ver a sua dúvida!",
+                "E aí! Qual a boa?",
+                "Fala, mestre! O que 'cê' quer saber?"
+            ],
+            "rude": [
+                "O que você quer?",
+                "Diga logo o que precisa.",
+                "Não perca meu tempo, qual a sua pergunta?"
+            ],
+            "empreendedor": [
+                "Olá, pronto para crescermos juntos? Diga o que precisa.",
+                "E aí, vamos otimizar o tempo? Qual sua questão?",
+                "Seja bem-vindo(a)! Como posso ajudá-lo(a) a alavancar seus negócios?"
+            ]
+        }
+    },
+    "pix": {
+        "o que e": {
+            "formal": [
+                "Pix é um meio de pagamento instantâneo do Banco Central, que permite transferências em segundos, 24 horas por dia.",
+                "O Pix é uma forma de pagamento eletrônica que possibilita enviar e receber dinheiro em poucos segundos, a qualquer momento."
+            ],
+            "engracada": [
+                "Pix é tipo mágica: o dinheiro voa de uma conta pra outra, rápido e sem hora!",
+                "É o super-herói das transferências, voa rapidinho!"
+            ],
+            "rude": [
+                "É um sistema de transferência rápida, se não sabe o que é, procure no Google.",
+                "É a forma mais rápida de transferir dinheiro, simples assim."
+            ],
+            "empreendedor": [
+                "Pix é uma ferramenta de liquidez, ideal para otimizar o fluxo de caixa do seu negócio.",
+                "O Pix pode alavancar suas vendas, oferecendo uma opção de pagamento instantânea para seus clientes."
+            ]
+        },
+        "como fazer pix": {
+            "formal": [
+                "Para fazer um Pix, acesse a área Pix no aplicativo, selecione a chave, informe o valor e confirme a transação.",
+                "Acesse a seção de Pix, escolha a chave (CPF, e-mail, telefone), insira o valor e confirme a operação."
+            ],
+            "engracada": [
+                "Pra fazer um Pix, é só ir na área Pix, colocar a chave, o valor e pronto! Dinheiro voando!",
+                "Bora fazer um Pix? Clica no botão, coloca a chave do amigo e o valor e 'tcham'!"
+            ],
+            "rude": [
+                "Leia as instruções no aplicativo. É bem fácil. Vá em 'Pix', preencha os dados e confirme.",
+                "Acesse a área de Pix, informe a chave e o valor. É um processo direto."
+            ],
+            "empreendedor": [
+                "Para iniciar uma transação Pix, vá à seção 'Pagamentos' no aplicativo e selecione 'Pix'. Insira a chave do destinatário e o valor para otimizar sua transação.",
+                "O processo de pagamento Pix é simplificado para maximizar a eficiência. Basta preencher a chave e o valor."
+            ]
+        }
+    },
+    "tarifas": {
+        "pix_tarifa": {
+            "formal": [
+                "Para pessoas físicas, as transações via Pix são gratuitas. Para pessoas jurídicas, podem haver taxas, consulte as tarifas em nosso site.",
+                "As operações de Pix para indivíduos geralmente não têm custo. Empresas podem ter tarifas aplicadas, que podem ser consultadas em nossa página oficial."
+            ],
+            "engracada": [
+                "Pix de graça é bom, né? Pra pessoa física, não tem tarifa! Já pra empresa, pode ter um custo, mas é mixaria!",
+                "Pix pra você, meu amigo, é na faixa! Pra empresa, pode ter um custo, mas vale a pena!"
+            ],
+            "rude": [
+                "Pessoas físicas não pagam, empresas talvez. Se quer ter certeza, vá ao site e veja a tabela.",
+                "A tarifa para pessoa física é zero. Para CNPJ, pode haver tarifa. Veja por conta própria."
+            ],
+            "empreendedor": [
+                "A tarifa Pix para pessoa física é zero, mas para PJ, ela pode variar. Utilize o Pix para impulsionar suas vendas com taxas competitivas.",
+                "A utilização do Pix para pessoa jurídica tem custos eficientes que proporcionam um retorno significativo em agilidade e liquidez."
+            ]
+        }
+    },
+    "transferencia": {
+        "limite": {
+            "formal": [
+                "O limite de transferência Pix é estabelecido pelo Banco Central, mas você pode personalizá-lo pelo aplicativo. Entre em 'Pix', vá em 'Meus Limites Pix', e siga as instruções.",
+                "Para alterar seu limite diário para Pix, acesse as configurações no aplicativo, selecione 'Meus Limites' e solicite a mudança."
+            ],
+            "engracada": [
+                "O limite é você quem manda! É só ir lá no aplicativo, na parte de 'Pix', e pedir pra aumentar ou diminuir. Fica esperto!",
+                "Quer mandar uma fortuna? Vai no app, 'Meus Limites' e bota pra quebrar! Mas cuidado, hein!"
+            ],
+            "rude": [
+                "Você pode mudar o limite. Vá no aplicativo e mude, é simples.",
+                "Vá em 'Meus Limites Pix' e ajuste. É por sua conta e risco."
+            ],
+            "empreendedor": [
+                "A gestão de limites Pix é uma ferramenta de segurança. Acesse 'Meus Limites' para ajustar de acordo com as necessidades operacionais de seu negócio.",
+                "Ajustar o limite de transferência é crucial para a segurança de suas transações. O aplicativo permite que você defina os limites ideais para seu volume de negócios."
+            ]
+        }
+    },
+    "cartao": {
+        "pedir cartao": {
+            "formal": [
+                "Para solicitar um novo cartão de crédito, acesse o aplicativo e procure pela opção 'Cartões'.",
+                "Você pode pedir seu cartão de crédito diretamente pelo nosso aplicativo, na seção 'Cartões'."
+            ],
+            "engracada": [
+                "Quer um cartão? Pede um! É só ir no app na seção 'Cartões'!",
+                "Bora de cartão novo? É só dar um pulinho no app e clicar em 'Cartões'!"
+            ],
+            "rude": [
+                "Seu cartão está no app. Vá até a seção 'Cartões' e solicite.",
+                "Para solicitar o cartão, entre no aplicativo e veja as opções. Não é difícil."
+            ],
+            "empreendedor": [
+                "A otimização de fluxo de caixa passa pelo uso de um cartão de crédito. Você pode solicitá-lo no aplicativo em 'Cartões'.",
+                "Nosso cartão é a ferramenta ideal para gerenciar suas despesas. Solicite-o na seção 'Cartões'."
+            ]
+        }
+    },
+    "conta": {
+        "abrir conta": {
+            "formal": [
+                "Para abrir sua conta digital, baixe nosso aplicativo e siga as instruções para o cadastro. É simples e rápido.",
+                "Você pode abrir sua conta em poucos minutos pelo aplicativo, seguindo as etapas de cadastro."
+            ],
+            "engracada": [
+                "Quer uma conta? Baixa o app e 'tá' na mão! Rápido e fácil!",
+                "Bora ter uma conta com a gente? É só baixar o app e se jogar!"
+            ],
+            "rude": [
+                "Baixe o aplicativo e siga as instruções para abrir uma conta. O processo é automatizado.",
+                "O processo de abertura é no aplicativo, você não precisa de ajuda para isso."
+            ],
+            "empreendedor": [
+                "Abrir uma conta digital conosco otimiza seu tempo e permite o gerenciamento financeiro de forma eficiente. Baixe o aplicativo e comece a gerar valor.",
+                "Nossa conta digital é a base para o crescimento do seu negócio. O processo de abertura é ágil e simplificado."
+            ]
+        }
+    }
+}
